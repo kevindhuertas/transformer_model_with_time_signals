@@ -19,7 +19,8 @@ Early detection and accurate classification of volcanic signals are critical for
 ## **Model Architecture Visualization**
 
 Below is a diagram of the proposed Transformer model architecture.  
-![simple_architecture](https://github.com/user-attachments/assets/b82c8a9c-7006-4fda-bccd-292831642fb8)
+
+![architecture_v3 (1)](https://github.com/user-attachments/assets/25575a52-b9cd-4831-84ba-84053f7ada04)
 
 ---
 
@@ -28,8 +29,8 @@ Below is a diagram of the proposed Transformer model architecture.
 The `Final_architecture.ipynb` notebook is prepared to test the Transformer model. It includes:
 
 1. **Model Training**:
-   - Automatically splits the dataset into 80% for training and 20% for validation.
-   - Includes an option to perform 10-fold cross-validation to evaluate model robustness.
+   - Splits the dataset into 80% for training and 20% for validation.
+   - Training: 10-fold cross-validation to evaluate model robustness.
 
 2. **Model Saving**:
    - The trained model is saved in `.keras` format for future use.
@@ -44,17 +45,6 @@ The `Final_architecture.ipynb` notebook is prepared to test the Transformer mode
 - It is recommended to use GPU hardware to accelerate training.
 - Ensure the dataset is preprocessed and located in the appropriate folder (`data/`).
 
----
-
-## **Results**
-
-### **Model Performance**
-The best performance was achieved with the optimal model configuration:
-- **Average Accuracy**: 95.6%
-- **Average F1-Score (LP)**: 95.6%
-- **Average AUC**: 95.8%
-
----
 
 ## **Contributions**
 
